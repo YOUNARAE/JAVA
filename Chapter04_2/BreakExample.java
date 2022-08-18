@@ -6,7 +6,7 @@ public class BreakExample {
 	public static void main(String[] args) {
 		while(true) {
 			Random random = new Random();
-			int num = random.nextInt(6) + 1;
+ 			int num = random.nextInt(6) + 1;
 			System.out.println(num);
 			
 			if( num==6 ) {

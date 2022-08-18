@@ -4,8 +4,11 @@ public class MemberExample {
 
 	public static void main(String[] args) {
 		
-		Member member3 = new Member();
-		member3.name = "이순신";
+		Member member3 = new Member("이순신");
+		System.out.println(member3.name);
+		
+		Member member4 = new Member("류관순","Ryu");
+		System.out.println(member4.name);
 		
 		Member member = new Member();
 		member.name = "최하얀";
