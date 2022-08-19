@@ -1,10 +1,9 @@
 package Chapter06.cal;
 
-public class Calculator {
+public class Calculator { //Calculator라는 설계도로 실체하지 않음.
 	int plus(int x, int y) {
 		return x + y;
 	}
-	
 	double avg (int x, int y) {
 		double sum = plus(x,y);
 		return sum / 2;
