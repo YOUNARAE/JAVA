@@ -10,14 +10,16 @@ public class Car {
 	String model = "그랜저";
 	String color; //초기값이 없으면 자동으로 defult 값으로 초기화해놓는다. defult 값:null
 	int maxSpeed = 350;
-
-	
-	void run() {
+    Car(){
+    	
+    }
+	//-----필드들
+	int speed; //int형은 초기값 0, 확인문제 1번에 2번예시
+	void run() { // 메소드 안에 있는 것들은 지역변수
 		boolean flag = false;
 		speed =100;
 		if(speed > 100){
 			int range = 10;//확인문제 1번에 1번예시
 		}
-	}
-	int speed; //int형은 초기값 0, 확인문제 1번에 2번예시
+	}	
 }
