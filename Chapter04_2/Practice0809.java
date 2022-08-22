@@ -1,4 +1,4 @@
-package Chapter04_2;
+package chapter04_2;
 
 public class Practice0809 {
 

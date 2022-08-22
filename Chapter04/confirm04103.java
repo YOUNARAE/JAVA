@@ -1,8 +1,8 @@
-package Chapter04;
+package chapter04;
 
 import java.util.Scanner;
 
-public class confirm04_03 {
+public class confirm04103 {
 	public static void main(String[] args) {
 		//입력
 		System.out.println("등급은?");

@@ -1,4 +1,4 @@
-package Chapter04_2_Confirm;
+package chapter04_2_Confirm;
 
 public class Confirm04205 {
 

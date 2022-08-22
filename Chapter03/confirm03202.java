@@ -1,6 +1,6 @@
-package Chapter03;
+package chapter03;
 
-public class confirm03_2 {
+public class confirm03202 {
 
 	public static void main(String[] args) {
 		int pencils = 534;

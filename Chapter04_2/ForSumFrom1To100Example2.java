@@ -1,4 +1,4 @@
-package Chapter04_2;
+package chapter04_2;
 
 public class ForSumFrom1To100Example2 {
 	public static void main(String[] args) {
