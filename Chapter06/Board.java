@@ -2,11 +2,11 @@ package Chapter06;
 
 public class Board {
 
-		String title;
-		String content;
-		String writer;
-		String date;
-		int hitcount;
+		private String title;
+		private String content;
+		private String writer;
+		private String date;
+		private int hitcount;
 
 		//Telescoping Constructor Pattern
 		
@@ -29,4 +29,45 @@ public class Board {
 			this.date = date;
 			this.hitcount = hitcount;
 		}
+	
+		public String getTitle(){
+			return title;
+		}
+		
+		public void setTitle(String title) {
+			this.title = title;
+		} //setter
+		
+		public String getContent() {
+			return content;
+		}
+		
+		public void setContent(String content) {
+			this.content = content;
+		} //setter
+		
+		public String getWriter() {
+			return writer;
+		} //getter
+		
+		public void setWriter() {
+			this.writer = writer;
+		}
+		
+		public String getDate() {
+			return date;
+		}
+		
+		public void setDate() {
+			this.date = date;
+		}
+		
+		public int getHitcount() {
+			return hitcount;
+		}//getter
+		
+		public void setHitcount() {
+			this.hitcount = hitcount;
+		}	
+		
 	}

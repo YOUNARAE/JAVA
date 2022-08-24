@@ -15,7 +15,7 @@ public class Exercise42 {
 		Scanner scanner = new Scanner(System.in);
 		// 입력
 		System.out.print("월을 입력하세요(1~12): ");
-		int month = Integer.parseInt(scanner.nextLine());
+		int month = scanner.nextInt();
 
 		switch (month) {
 		case 1:
@@ -57,12 +57,23 @@ public class Exercise42 {
 		default:
 			System.out.println("잘못된 입력입니다");
 		}
-//   		/*if문사용*/
-		/*
-		 * int month = scanner.nextLine(); String season = ""; if(month>=3 && month <=5)
-		 * { season = "봄"; } else if (month>=6 && month <=8) { season = "여름"; } else if
-		 * (month>=9 && month <=11){ season = "가을"; } else if (month==12 || month <=2){
-		 * season = "겨울"; } else { season = "알수 없는 계절"; }
-		 */
+
+		
+		/*if문사용*/
+/*		
+		 int month = scanner.nextLine(); 
+		 String season = ""; 
+		 
+		 if(month>=3 && month <=5){ 
+			 season = "봄"; 
+		} else if(month>=6 && month <=8) { 
+			season = "여름"; 
+		} else if(month>=9 && month <=11) {
+			season = "가을"; 
+		} else if(month==12 || month <=2) {
+	     	 season = "겨울"; 
+	    } else { 
+	    	season = "알수 없는 계절"; 
+	    }*/
 	}
 }

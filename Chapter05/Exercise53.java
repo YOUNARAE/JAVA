@@ -17,17 +17,7 @@ public class Exercise53 {
 		
 		 String[] comArr = {"가위","바위","보"};
 		 String computer = comArr[ranNum];
-		 /*
-		 String computer = "";
-		 
-		 if(ranNum == 0) {
-			 computer = "가위";
-		 } else if(ranNum == 1) {
-			 computer = "바위";
-		 } else {
-			 computer = "보";
-		 }
-		*/
+
 		 
 		 String result = "";
 		 

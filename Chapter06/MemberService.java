@@ -2,7 +2,16 @@ package Chapter06;
 
 public class MemberService {
 	
-	boolean login(String id,String password) {
+	private static MemberService instance = new MemberService();
+	
+	private MemberService() {
+	}
+		
+	public static MemberService getInstance() {
+		return instance;
+	}
+	
+	public boolean login(String id,String password) {
 		
 		if(id=="hong"&&password=="12345") {
 			return true;
