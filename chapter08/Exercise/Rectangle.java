@@ -1,4 +1,4 @@
-package chapter07.Exercise;
+package chapter08.Exercise;
 
 public class Rectangle extends Shape {
 	//필드
@@ -15,16 +15,16 @@ public class Rectangle extends Shape {
 	//메소드
 	@Override
 	public double area() {
-		return Math.round(width * height*100)/100; 
+		return width * height; 
 	}
 	
 	@Override
 	public double perimeter() {
-		return Math.round(width + width + height + height*100)/100;
+		return width + width + height + height;
 	}
 	
 	public String toString() {
-		return String.format("도형의 모양 : 직사각형, 둘레:"+ perimeter()+"cm, 넓이: "+ area()+"㎠");
+		return String.format("도형의 모양 : 직사각형, 넓이: %.2f ㎠, 둘레: %.2f cm",area(),perimeter());
 	}
 	
 }
