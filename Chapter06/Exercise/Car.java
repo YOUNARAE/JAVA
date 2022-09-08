@@ -11,16 +11,12 @@ public class Car {
 	public Car() {
 	}
 
-	
 	public Car(String color) {
 		this.color = color;
 	}
 
 	// 메소드
 	
-	public static double getMaxSpeed() {
-		return MAX_SPEED;
-	}
 	// 자동차색깔
 	public String getColor() {
 		return color;
@@ -59,6 +55,10 @@ public class Car {
 		} 
 		this.speed += speed;
 		return true;
+	}
+
+	public static double getMaxSpeed() {
+		return MAX_SPEED;
 	}
 
 	public String toString() {

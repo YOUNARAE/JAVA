@@ -1,0 +1,37 @@
+JDBC Programing
+
+Java DataBase Connectivity
+
+
+MySQL
+MariaD
+
+드라이버를 무조건 다운받아야한다
+
+
+oracle jdbc driver 검색 -> JDBC 드라이버 ->다운로드 ->8jar
+
+이클립스 베이직자바 오른쪽 버튼 properties ->build path->Libraries
+
+https://www.oracle.com/kr/database/technologies/appdev/jdbc-downloads.html
+
+
+
+
+
+폴더를 이클립스 워크스페이스로 옮겨준다
+
+createStatement 워크시트를 생성한다
+
+
+
+
+자바코드 ------> 오라클 접속
+ 2.쿼리문작성
+3.실행
+4.결과 받기
+5.접속 종료
+
+
+
+예외처리까지 나오고 예외처리 1문제 나옴
