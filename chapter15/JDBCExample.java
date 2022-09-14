@@ -37,7 +37,7 @@ public class JDBCExample {
 			String memMail = resultSet.getString("mem_mail");
 			System.out.printf("%s \t %s \t %s \t %s\n", memId, memName, memHp, memMail);
 		}
-		// 5. 접속 종료
+		// 5. 접속 종료(자원반납)
 		resultSet.close();
 		statement.close();
 		connection.close();
